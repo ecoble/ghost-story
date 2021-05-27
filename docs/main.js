@@ -74,7 +74,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!--The content below is only a placeholder and can be replaced.-->\n<h1>GHOST STORY TEST</h1>\n\n<router-outlet></router-outlet>\n"
+module.exports = "<!--The content below is only a placeholder and can be replaced.-->\n<h1>GHOST STORY TEST</h1>\n<p>This is a ghost story...</p>\n<router-outlet></router-outlet>\n"
 
 /***/ }),
 
