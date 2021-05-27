@@ -1,4 +1,10 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<h1>GHOST STORY TEST</h1>
-<p>This is a ghost story...</p>
-<router-outlet></router-outlet>
+<div class="container">
+  <h1>GHOST STORY</h1>
+  <p>{{currentNode.text}}</p>
+  <div class="button-container">
+    <button mat-button (click)="leftClick()"> {{currentNode.left.text}} </button>
+    <button mat-button (click)="rightClick()"> {{currentNode.right.text}} </button>
+  </div>
+</div>
+
