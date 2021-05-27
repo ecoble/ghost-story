@@ -63,7 +63,7 @@ var AppRoutingModule = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".container {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n}\n\n.button-container {\n    display: flex;\n    flex-direction: row;\n}\n\n.text-container {\n    width: 800px;\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxhQUFhO0lBQ2Isc0JBQXNCO0lBQ3RCLG1CQUFtQjtBQUN2Qjs7QUFFQTtJQUNJLGFBQWE7SUFDYixtQkFBbUI7QUFDdkI7O0FBRUE7SUFDSSxZQUFZO0FBQ2hCIiwiZmlsZSI6InNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuY29udGFpbmVyIHtcbiAgICBkaXNwbGF5OiBmbGV4O1xuICAgIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XG4gICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbn1cblxuLmJ1dHRvbi1jb250YWluZXIge1xuICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgZmxleC1kaXJlY3Rpb246IHJvdztcbn1cblxuLnRleHQtY29udGFpbmVyIHtcbiAgICB3aWR0aDogODAwcHg7XG59XG4iXX0= */"
+module.exports = ".container {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n}\n\n.button-container {\n    display: flex;\n    flex-direction: row;\n}\n\n.text-container {\n    width: 800px;\n}\n\n.interactive-container {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxhQUFhO0lBQ2Isc0JBQXNCO0lBQ3RCLG1CQUFtQjtBQUN2Qjs7QUFFQTtJQUNJLGFBQWE7SUFDYixtQkFBbUI7QUFDdkI7O0FBRUE7SUFDSSxZQUFZO0FBQ2hCOztBQUVBO0lBQ0ksYUFBYTtJQUNiLHNCQUFzQjtJQUN0QixtQkFBbUI7QUFDdkIiLCJmaWxlIjoic3JjL2FwcC9hcHAuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5jb250YWluZXIge1xuICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcbiAgICBhbGlnbi1pdGVtczogY2VudGVyO1xufVxuXG4uYnV0dG9uLWNvbnRhaW5lciB7XG4gICAgZGlzcGxheTogZmxleDtcbiAgICBmbGV4LWRpcmVjdGlvbjogcm93O1xufVxuXG4udGV4dC1jb250YWluZXIge1xuICAgIHdpZHRoOiA4MDBweDtcbn1cblxuLmludGVyYWN0aXZlLWNvbnRhaW5lciB7XG4gICAgZGlzcGxheTogZmxleDtcbiAgICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xuICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG59Il19 */"
 
 /***/ }),
 
@@ -74,7 +74,7 @@ module.exports = ".container {\n    display: flex;\n    flex-direction: column;\
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!--The content below is only a placeholder and can be replaced.-->\n<div class=\"container\">\n  <h1>A GHOST STORY</h1>\n  <p>NOTE: This is a work in progress, and some of the story lines still need finishing, as well as styling and images.</p>\n  <div class=\"text-container\">\n    <p>{{currentNode.text}}</p>\n  </div>\n  <p>Do you choose to: </p>\n  <div class=\"button-container\">\n    <button mat-button (click)=\"leftClick()\"> {{currentNode.left.button_text}} </button>\n    <button mat-button (click)=\"rightClick()\"> {{currentNode.right.button_text}} </button>\n  </div>\n</div>\n\n"
+module.exports = "<!--The content below is only a placeholder and can be replaced.-->\n<div class=\"container\">\n  <h1>A GHOST STORY</h1>\n  <p>NOTE: This is a work in progress, and some of the story lines still need finishing, as well as styling and images.</p>\n  <div class=\"text-container\">\n    <p>{{currentNode.text}}</p>\n  </div>\n  <div *ngIf=\"currentNode.left\" class=\"interactive-container\">\n    <p>Do you choose to: </p>\n    <div class=\"button-container\">\n      <button mat-button (click)=\"leftClick()\"> {{currentNode.left.button_text}} </button>\n      <button mat-button (click)=\"rightClick()\"> {{currentNode.right.button_text}} </button>\n    </div>\n  </div>\n  \n</div>\n\n"
 
 /***/ }),
 
@@ -113,16 +113,16 @@ var AppComponent = /** @class */ (function () {
                                 text: "You go with Xiaocao back to your house. You make some fresh tea and she sits and stares out the window silently. You being to worry if you've made a mistake bringing her here. What is she is a runaway, or a con artist? Finally she looks at you. \"Thank you for your generosity, not many people have been kind to me. \" You feel reassured that she is genuine.",
                                 button_text: "Take her back to your house, so she can rest before you head off to find her uncle.",
                                 left: {
-                                    text: "",
+                                    text: "Fang Xiaocao agrees, but as you turn to leave your house the door slam shuts. You look back at Xiaocao, and see that she has turned into a huge green serpent. She coils herself around you and eats you whole. You regret helping Fang Xiaocao, and in your last moments you vow to not be so trusting in your next life, if you get one.",
                                     button_text: "Suggest that you head out soon to find her uncle, you don't want to waste daylight.",
                                     left: null,
                                     right: null,
                                 },
                                 right: {
-                                    text: "\"My father was once a successful silk merchant... but I don't like to dwell on the past. My uncle's name is Wang LanTian, he is a potter that lives on the edges of town.\" Wang LanTian... that's not a name you are familiar with, and you know most of the people who lives here. As you are pondering this, you hear a teacup clatter. You look back at Fang Xiaocao, but she is gone.",
+                                    text: "\"My father was once a successful silk merchant... but I don't like to dwell on the past. My uncle's name is Wang LanTian, he is a potter that lives on the edges of town.\" Wang LanTian... the name sounds somewhat familiar, yet you can't recall knowing anyone with that name. As you are pondering this, you hear a teacup clatter. You look back at Fang Xiaocao, but she is gone.",
                                     button_text: "Ask her about her family, and her uncle.",
                                     left: {
-                                        text: "You go out to the court yard. \"Fang Xiaocao...?\" There is no response. You're very nervous now. You turn to go back inside. As you approach the doorway, you see a serpent's tail wrapping around the frame. You start backing up but it is too late. A huge white serpent emerges from your house, wraps itself around you, and swallows you whole. You regret helping Fang Xiaocao, and in your last moments you vow to not be so trusting in your next life, if you get one.",
+                                        text: "You go out to the court yard. \"Fang Xiaocao...?\" There is no response. You're very nervous now. You turn to go back inside. As you approach the doorway, you see a serpent's tail wrapping around the frame. You start backing up but it is too late. A huge white serpent emerges from your house, wraps itself around you, and swallows you whole. In the face of death, you remember who Wang LanTian is. Your neighbors had a funeral for him last year.",
                                         button_text: "Check to see if she went outside.",
                                         left: null,
                                         right: null,
@@ -137,7 +137,7 @@ var AppComponent = /** @class */ (function () {
                                             right: null,
                                         },
                                         right: {
-                                            text: "",
+                                            text: "You turn to leave your bedroom, but the door slam shuts. You look back at Fang Xiaocao and see that she has turned into an enormous red-haired demon. She bites out a chunk from your forehead. As you slowly die, you see her take several poems from your desk and leave out the window.",
                                             button_text: "Tell her you will read it to her later. Things are getting kind of weird, and you want to get going.",
                                             left: null,
                                             right: null,
@@ -146,10 +146,50 @@ var AppComponent = /** @class */ (function () {
                                 },
                             },
                             right: {
-                                text: "",
+                                text: "You start walking down the road with Fang Xiaocao. You ask her what her uncle's name is. \"His name is Wang LanTian, I've never met him but I'm told he is a potter that lives on the edge of this town\". The town square is busy, but you're not sure where to start. You've never heard of Wang LanTian. There's a monastary nearby, as well as some merchant stands.",
                                 button_text: "Start heading towards the town square, to see if anybody knows her uncle. ",
-                                left: null,
-                                right: null,
+                                left: {
+                                    text: "",
+                                    button_text: "Go to the monastary. A lot of people give offerings to their ancestors there, there's a good chance one of the monks knows him.",
+                                    left: null,
+                                    right: null,
+                                },
+                                right: {
+                                    text: "You head towards the merchant stands. You see a man selling ceramic bowls, and ask if he knows Wang LanTian. \"Wang Lantian... I can't say I know him. But I've heard there is a potter who lives on the southwest outskirts of town, at the base of the mountain. I bet he's the man you are looking for.",
+                                    button_text: "Go to the merchant stands. Perhaps another craftsman knows him.",
+                                    left: {
+                                        text: "You start walking towards the mountain. After about half an hour, you reach the outskirts of town, and start heading into the woods, following a large trail. You look back at Fang Xiaocao, but she is gone.",
+                                        button_text: "Start walking towards the mountain.",
+                                        left: {
+                                            text: "You have a really bad feeling about all that has happened. You turn around to leave, and realize the trail has disappeared too. With no other choice, you simply start wandering in the direction you think you came from. Time slips away, and the woods seem never ending. You see a cave coming up, and a sharp stick nearby.",
+                                            button_text: "Just leave the woods, this is too strange!",
+                                            left: {
+                                                text: "You feel yourself die, but quickly realize you are still in the woods. You have become a ghost. You cry out as you realize you are doomed to wander these woods forever. The townspeople hear your wailing during the night, and grow to fear the demon living in the woods. They set out offerings in hopes the wailing will end, but you are never able to receive them.",
+                                                button_text: "Give up, and take your life with the stick.",
+                                                left: null,
+                                                right: null,
+                                            },
+                                            right: {
+                                                text: "You go to the cave and sleep for the night. The next day, you try to find your way out of the woods, but find yourself somehow walking in circles, always ending up back at the cave. Eventually you lose hope on ever leaving the woods, and learn to live in the cave. Your hair turns white in the darkness and your grow white hair on your body as well. You start wailing at night to mourn the loss of your previous life. The townspeople hear your cries, and develop a local legend about the demon that lives in the woods.",
+                                                button_text: "Go to the cave to hunker down for the night, and try to find your way out of the woods in the morning. ",
+                                                left: null,
+                                                right: null,
+                                            },
+                                        },
+                                        right: {
+                                            text: "",
+                                            button_text: "Try to find Fang Xiaocao.",
+                                            left: null,
+                                            right: null,
+                                        },
+                                    },
+                                    right: {
+                                        text: "",
+                                        button_text: "Ask someone else, you want to be sure before you head off.",
+                                        left: null,
+                                        right: null,
+                                    }
+                                },
                             },
                         },
                         right: {
