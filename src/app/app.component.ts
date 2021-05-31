@@ -152,7 +152,7 @@ export class AppComponent {
             left: {
               text: "You go out to the court yard. \"Fang Xiaocao...?\" There is no response. You're very nervous now. You turn to go back inside. As you approach the doorway, you see a serpent's tail wrapping around the frame. You start backing up but it is too late. A huge white serpent emerges from your house, wraps itself around you, and swallows you whole. In the face of death, you remember who Wang LanTian is. Your neighbors had a funeral for him last year.",
               button_text: "Check to see if she went outside.",
-              background_url: "assets/images/serpent.jpg",
+              background_url: "assets/images/serpent.jpeg",
               left: null,
               right: null,
             },
@@ -170,7 +170,7 @@ export class AppComponent {
               right: {
                 text: "You turn to leave your bedroom, but the door slam shuts. You look back at Fang Xiaocao and see that she has turned into an enormous red-haired demon. She bites out a chunk from your forehead. As you slowly die, you see her take several poems from your desk and leave out the window.",
                 button_text: "Tell her you will read it to her later. Things are getting kind of weird, and you want to get going.",
-                background_url: "assets/images/demons.jpg",
+                background_url: "assets/images/demons.jpeg",
                 left: null,
                 right: null,
               },
@@ -236,7 +236,7 @@ export class AppComponent {
         right: {
           text: "Fang Xiaocao seems delighted by your offer. You head back to your house and she tells you about her family, who are poor farmers. She is quite beautiful, and she's looking for a spouse... perhaps a marriage could work between you two. Fang Xiaocao is tired, so you decide to go to sleep and start your search in the morning.",
           button_text: "Offer to take her back to your home to have a meal first, she must be hungry.",
-          background_url: "assets/images/desk.jpeg",
+          background_url: "assets/images/desk.png",
           left: {
             text: "The mat is a bit uncomfortable, but you are very tired for some reason, and you fall asleep quickly. In the middle of the night you wake up in a panic. Fang Xiaocao is standing above you, holding what seems to be an ornate knife. Before you can cry out, Fang Xiaocao sees that you are awake and begins crying. She collapses to the floor and drops the knife.",
             button_text: "Let Fang Xiaocao sleep in your bed, while you sleep on a mat on the floor.",
@@ -278,7 +278,7 @@ export class AppComponent {
                 left: {
                     text: "\"It's an interesting idea, but I'm not sure it will work... but I am willing to try.\" You walk with Fang Xiaocao out to the edge of town, and she shows you were her remains are. You gather them in a sack and bury them in the corner of your courtyard. Within days, you see Fang Xiaocao's health improve. You are able to live happy and fulfilling life together, and most of the time you even forget that she is a ghost.",
                     button_text: "Suggest that you bring Fang Xiaocao's bones back to your house instead.",
-                    background_url: "assets/images/forest.jpg",
+                    background_url: "assets/images/forest.jpeg",
                     left: null,
                     right: null,
                 },

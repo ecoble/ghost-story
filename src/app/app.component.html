@@ -7,8 +7,8 @@
   <div *ngIf="currentNode.left" class="interactive-container">
     <p>Do you choose to: </p>
     <div class="button-container">
-      <button mat-button (click)="leftClick()"> {{currentNode.left.button_text}} </button>
-      <button mat-button (click)="rightClick()"> {{currentNode.right.button_text}} </button>
+      <p class="fake-button" (click)="leftClick()">{{currentNode.left.button_text}}</p>
+      <p class="fake-button" mat-button (click)="rightClick()">{{currentNode.right.button_text}}</p>
     </div>
   </div>
   <p style="font-size: 12px">To restart the story, refresh your browser.</p>

@@ -63,7 +63,7 @@ var AppRoutingModule = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".container {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    position: absolute; \n    width: 100%;\n    height: 100%;\n    /* background: url(\"../assets/images/courtyard.jpeg\") no-repeat center center fixed;  */\n    background-repeat: no-repeat;\n    background-size: cover;\n}\n\nh1, p {\n    background-color: #F9F9F0;\n    padding: 10px;\n    margin: 20px;\n}\n\n.button-container {\n    background-color: #F9F9F0;\n    display: flex;\n    flex-direction: row;\n}\n\n.text-container {\n    max-width: 800px;\n}\n\n.interactive-container {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxhQUFhO0lBQ2Isc0JBQXNCO0lBQ3RCLG1CQUFtQjtJQUNuQixrQkFBa0I7SUFDbEIsV0FBVztJQUNYLFlBQVk7SUFDWix1RkFBdUY7SUFDdkYsNEJBQTRCO0lBSTVCLHNCQUFzQjtBQUMxQjs7QUFFQTtJQUNJLHlCQUF5QjtJQUN6QixhQUFhO0lBQ2IsWUFBWTtBQUNoQjs7QUFFQTtJQUNJLHlCQUF5QjtJQUN6QixhQUFhO0lBQ2IsbUJBQW1CO0FBQ3ZCOztBQUVBO0lBQ0ksZ0JBQWdCO0FBQ3BCOztBQUVBO0lBQ0ksYUFBYTtJQUNiLHNCQUFzQjtJQUN0QixtQkFBbUI7QUFDdkIiLCJmaWxlIjoic3JjL2FwcC9hcHAuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5jb250YWluZXIge1xuICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcbiAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTsgXG4gICAgd2lkdGg6IDEwMCU7XG4gICAgaGVpZ2h0OiAxMDAlO1xuICAgIC8qIGJhY2tncm91bmQ6IHVybChcIi4uL2Fzc2V0cy9pbWFnZXMvY291cnR5YXJkLmpwZWdcIikgbm8tcmVwZWF0IGNlbnRlciBjZW50ZXIgZml4ZWQ7ICAqL1xuICAgIGJhY2tncm91bmQtcmVwZWF0OiBuby1yZXBlYXQ7XG4gICAgLXdlYmtpdC1iYWNrZ3JvdW5kLXNpemU6IGNvdmVyO1xuICAgIC1tb3otYmFja2dyb3VuZC1zaXplOiBjb3ZlcjtcbiAgICAtby1iYWNrZ3JvdW5kLXNpemU6IGNvdmVyO1xuICAgIGJhY2tncm91bmQtc2l6ZTogY292ZXI7XG59XG5cbmgxLCBwIHtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjRjlGOUYwO1xuICAgIHBhZGRpbmc6IDEwcHg7XG4gICAgbWFyZ2luOiAyMHB4O1xufVxuXG4uYnV0dG9uLWNvbnRhaW5lciB7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogI0Y5RjlGMDtcbiAgICBkaXNwbGF5OiBmbGV4O1xuICAgIGZsZXgtZGlyZWN0aW9uOiByb3c7XG59XG5cbi50ZXh0LWNvbnRhaW5lciB7XG4gICAgbWF4LXdpZHRoOiA4MDBweDtcbn1cblxuLmludGVyYWN0aXZlLWNvbnRhaW5lciB7XG4gICAgZGlzcGxheTogZmxleDtcbiAgICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xuICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG59Il19 */"
+module.exports = ".container {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    position: absolute; \n    width: 100%;\n    height: 100%;\n}\n\nh1, p {\n    background-color: #F9F9F0;\n    padding: 10px;\n    margin: 20px;\n}\n\n.button-container {\n    background-color: #F9F9F0;\n    display: flex;\n    flex-direction: row;\n}\n\n.text-container {\n    max-width: 800px;\n}\n\n.fake-button {\n    margin: 0;\n    font-weight: bold;\n    background-color: #F9F9F0;\n}\n\n.fake-button:hover {\n    background-color: #e9e9de;\n}\n\n.interactive-container {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxhQUFhO0lBQ2Isc0JBQXNCO0lBQ3RCLG1CQUFtQjtJQUNuQixrQkFBa0I7SUFDbEIsV0FBVztJQUNYLFlBQVk7QUFDaEI7O0FBRUE7SUFDSSx5QkFBeUI7SUFDekIsYUFBYTtJQUNiLFlBQVk7QUFDaEI7O0FBRUE7SUFDSSx5QkFBeUI7SUFDekIsYUFBYTtJQUNiLG1CQUFtQjtBQUN2Qjs7QUFFQTtJQUNJLGdCQUFnQjtBQUNwQjs7QUFFQTtJQUNJLFNBQVM7SUFDVCxpQkFBaUI7SUFDakIseUJBQXlCO0FBQzdCOztBQUVBO0lBQ0kseUJBQXlCO0FBQzdCOztBQUVBO0lBQ0ksYUFBYTtJQUNiLHNCQUFzQjtJQUN0QixtQkFBbUI7QUFDdkIiLCJmaWxlIjoic3JjL2FwcC9hcHAuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5jb250YWluZXIge1xuICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcbiAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTsgXG4gICAgd2lkdGg6IDEwMCU7XG4gICAgaGVpZ2h0OiAxMDAlO1xufVxuXG5oMSwgcCB7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogI0Y5RjlGMDtcbiAgICBwYWRkaW5nOiAxMHB4O1xuICAgIG1hcmdpbjogMjBweDtcbn1cblxuLmJ1dHRvbi1jb250YWluZXIge1xuICAgIGJhY2tncm91bmQtY29sb3I6ICNGOUY5RjA7XG4gICAgZGlzcGxheTogZmxleDtcbiAgICBmbGV4LWRpcmVjdGlvbjogcm93O1xufVxuXG4udGV4dC1jb250YWluZXIge1xuICAgIG1heC13aWR0aDogODAwcHg7XG59XG5cbi5mYWtlLWJ1dHRvbiB7XG4gICAgbWFyZ2luOiAwO1xuICAgIGZvbnQtd2VpZ2h0OiBib2xkO1xuICAgIGJhY2tncm91bmQtY29sb3I6ICNGOUY5RjA7XG59XG5cbi5mYWtlLWJ1dHRvbjpob3ZlciB7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogI2U5ZTlkZTtcbn1cblxuLmludGVyYWN0aXZlLWNvbnRhaW5lciB7XG4gICAgZGlzcGxheTogZmxleDtcbiAgICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xuICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG59Il19 */"
 
 /***/ }),
 
@@ -74,7 +74,7 @@ module.exports = ".container {\n    display: flex;\n    flex-direction: column;\
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!--The content below is only a placeholder and can be replaced.-->\n<div class=\"container\" [ngStyle]=\"{background: 'url(' + background_url +') no-repeat center center fixed', 'background-size': 'cover' }\">\n  <h1>A GHOST STORY</h1>\n  <div class=\"text-container\">\n    <p>{{currentNode.text}}</p>\n  </div>\n  <div *ngIf=\"currentNode.left\" class=\"interactive-container\">\n    <p>Do you choose to: </p>\n    <div class=\"button-container\">\n      <button mat-button (click)=\"leftClick()\"> {{currentNode.left.button_text}} </button>\n      <button mat-button (click)=\"rightClick()\"> {{currentNode.right.button_text}} </button>\n    </div>\n  </div>\n  <p style=\"font-size: 12px\">To restart the story, refresh your browser.</p>\n</div>\n\n"
+module.exports = "<!--The content below is only a placeholder and can be replaced.-->\n<div class=\"container\" [ngStyle]=\"{background: 'url(' + background_url +') no-repeat center center fixed', 'background-size': 'cover' }\">\n  <h1>A GHOST STORY</h1>\n  <div class=\"text-container\">\n    <p>{{currentNode.text}}</p>\n  </div>\n  <div *ngIf=\"currentNode.left\" class=\"interactive-container\">\n    <p>Do you choose to: </p>\n    <div class=\"button-container\">\n      <p class=\"fake-button\" (click)=\"leftClick()\">{{currentNode.left.button_text}}</p>\n      <p class=\"fake-button\" mat-button (click)=\"rightClick()\">{{currentNode.right.button_text}}</p>\n    </div>\n  </div>\n  <p style=\"font-size: 12px\">To restart the story, refresh your browser.</p>\n</div>\n\n"
 
 /***/ }),
 
@@ -238,7 +238,7 @@ var AppComponent = /** @class */ (function () {
                             left: {
                                 text: "You go out to the court yard. \"Fang Xiaocao...?\" There is no response. You're very nervous now. You turn to go back inside. As you approach the doorway, you see a serpent's tail wrapping around the frame. You start backing up but it is too late. A huge white serpent emerges from your house, wraps itself around you, and swallows you whole. In the face of death, you remember who Wang LanTian is. Your neighbors had a funeral for him last year.",
                                 button_text: "Check to see if she went outside.",
-                                background_url: "assets/images/serpent.jpg",
+                                background_url: "assets/images/serpent.jpeg",
                                 left: null,
                                 right: null,
                             },
@@ -256,7 +256,7 @@ var AppComponent = /** @class */ (function () {
                                 right: {
                                     text: "You turn to leave your bedroom, but the door slam shuts. You look back at Fang Xiaocao and see that she has turned into an enormous red-haired demon. She bites out a chunk from your forehead. As you slowly die, you see her take several poems from your desk and leave out the window.",
                                     button_text: "Tell her you will read it to her later. Things are getting kind of weird, and you want to get going.",
-                                    background_url: "assets/images/demons.jpg",
+                                    background_url: "assets/images/demons.jpeg",
                                     left: null,
                                     right: null,
                                 },
@@ -322,7 +322,7 @@ var AppComponent = /** @class */ (function () {
                     right: {
                         text: "Fang Xiaocao seems delighted by your offer. You head back to your house and she tells you about her family, who are poor farmers. She is quite beautiful, and she's looking for a spouse... perhaps a marriage could work between you two. Fang Xiaocao is tired, so you decide to go to sleep and start your search in the morning.",
                         button_text: "Offer to take her back to your home to have a meal first, she must be hungry.",
-                        background_url: "assets/images/desk.jpeg",
+                        background_url: "assets/images/desk.png",
                         left: {
                             text: "The mat is a bit uncomfortable, but you are very tired for some reason, and you fall asleep quickly. In the middle of the night you wake up in a panic. Fang Xiaocao is standing above you, holding what seems to be an ornate knife. Before you can cry out, Fang Xiaocao sees that you are awake and begins crying. She collapses to the floor and drops the knife.",
                             button_text: "Let Fang Xiaocao sleep in your bed, while you sleep on a mat on the floor.",
@@ -364,7 +364,7 @@ var AppComponent = /** @class */ (function () {
                                     left: {
                                         text: "\"It's an interesting idea, but I'm not sure it will work... but I am willing to try.\" You walk with Fang Xiaocao out to the edge of town, and she shows you were her remains are. You gather them in a sack and bury them in the corner of your courtyard. Within days, you see Fang Xiaocao's health improve. You are able to live happy and fulfilling life together, and most of the time you even forget that she is a ghost.",
                                         button_text: "Suggest that you bring Fang Xiaocao's bones back to your house instead.",
-                                        background_url: "assets/images/forest.jpg",
+                                        background_url: "assets/images/forest.jpeg",
                                         left: null,
                                         right: null,
                                     },
