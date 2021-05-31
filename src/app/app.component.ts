@@ -184,19 +184,59 @@ export class AppComponent {
         text: "\"Thank you so much! You're very kind. I'm Fang Xiaocao, I'm from the Southern Province, but my family is very poor and can no longer afford to feed me. They've sent me here to live with my uncle, and hopefully find a spouse quickly. I don't know where he lives, but I've heard he's a potter.\"",
         button_text: "Agree to help her.",
         left: {
-          text: "",
+          text: "You search all day but you are unable to find Fang Xiaocao's uncle. Nobody has even heard of him. You begin to grow suspicious of Fang Xiaocao, but her beauty and innocence keep your worries at bay. It is getting late now, and you offer for Fang Xiaocao to stay at your house, which she gladly accepts. You tell her she can sleep in your bed while you sleep on a mat on the floor. Fang Xiaocao looks disappointed. \"I thought we could sleep together... it has been lonely travelling all this way by myself.\"",
           button_text: "Start asking around the market to see if anybody knows Fang Xiaocao's uncle.",
-          left: null,
-          right: null
+          left: {
+            text: "You sleep with Fang Xiaocao, and you share passionate love. Over the next few days, the two of you quickly forget about finding her uncle. You are so enamored by her, that you don't notice yourself growing weaker each day until you are bedridden. You ask Fang Xiaocao what is happening to you, and she smiles. \"Well truthfully, I've been searching for a husband for a long time, but not many people want to marry a ghost... But if you're a ghost too, there aren't any problems.\" You are too weak now to do anything about your situation. You die within a few days, and you and Fang Xiaocao spend eternity together haunting your town.",
+            button_text: "Sleep in bed with Fang Xiaocao.",
+            left: null,
+            right: null,
+          },
+          right: {
+            text: "Fang Xiaocao does not protest anymore. In the morning, before you are about to leave again to search for her uncle, Fang Xiaocao tells you she has a confession. \"We will not find my uncle, he died many years ago. The truth is, I am a ghost. My husband scorned me many years ago, left me with no support, and I died in disgrace. Since then I have been trying to find a new spouse, in the hopes that finding a new life may let me leave this ghostly form behind. I was hoping you would marry me, but it seems you aren't interested...\"",
+            button_text: "Insist on sleeping on the floor.",
+            left: {
+              text: "You tell Fang Xiaocao she has to go. \"I see... I won't be troubling you anymore then.\" Fang Xiaocao leaves and you see her ghostly form disappear once she has walked a little ways down the road. You are nervous for the next few days that she might come back, but true to her word nothing unusual happens. A couple months later, you hear of a healthy young man dying unexpectedly just down the road from where you live.",
+              button_text: "Send Fang Xiaocao away for lying to you and being a ghost.",
+              left: null,
+              right: null,
+            },
+            right: {
+              text: "Fang Xiaocao is skeptical of your idea but agrees. You arrive at the monastary, and a priest immediately approaches you. \"Sir, what are you doing? Why have you brought such a creature here?\" You explain Fang Xiaocao's situation, and the priest seems sympathetic. He takes you to a room in the back of the monastary. He tells Fang Xiaocao to hold several talismans, and then begins chanting sacred scripts. Fang Xiaocao looks uncomfortable, but you see her ghostly form is disappearing. Fang Xiaocao starts smiling, and soon she has vanished. \"Her days will be peaceful now,\" the monk tells you. You leave the monastary and continue running errands, trying to forget your encounter.",
+              button_text: "Take Fang Xiaocao to the monastary to see if a priest can help her.",
+              left: null,
+              right: null,
+            },
+          }
         },
         right: {
           text: "Fang Xiaocao seems delighted by your offer. You head back to your house and she tells you about her family, who are poor farmers. She is quite beautiful, and she's looking for a spouse... perhaps a marriage could work between you two. Fang Xiaocao is tired, so you decide to go to sleep and start your search in the morning.",
           button_text: "Offer to take her back to your home to have a meal first, she must be hungry.",
           left: {
-            text: "",
+            text: "The mat is a bit uncomfortable, but you are very tired for some reason, and you fall asleep quickly. In the middle of the night you wake up in a panic. Fang Xiaocao is standing above you, holding what seems to be an ornate knife. Before you can cry out, Fang Xiaocao sees that you are awake and begins crying. She collapses to the floor and drops the knife.",
             button_text: "Let Fang Xiaocao sleep in your bed, while you sleep on a mat on the floor.",
-            left: null,
-            right: null,
+            left: {
+              text: "You send Fang Xiaocao out of the house. She does not protest, or offer any explanation. You almost feel bad putting her on the street in the middle of the night. Despite your ordeal, you find yourself falling asleep again as soon as you get back inside. You wake up again a few hours later, the window is open and the knife is in your heart.",
+              button_text: "Kick her out. She tried to kill you!",
+              left: null,
+              right: null,
+            },
+            right: {
+              text: "You ask Fang Xiaocao what is wrong. \"Please forgive me,\" she tells you through tears. \"I have not been honest. I am a ghost, and I am controlled by a horrible demon who forces me to kill so she can collect their spirits. I was supposed to kill you tonight, but you have been so kind to me, I can't bring myself to do it. I don't want to kill anymore. Can you felt me break free from her control?\"",
+              button_text: "Comfort her, and hear her out.",
+              left: {
+                text: "Fang Xiaocao starts crying again, but starts to get up. \"I understand...\" and with these final words she vanishes. You are shocked, but yet you are still exhausted and find yourself falling alseep again, despite not wanting to. You wake up again in the middle of the night, this time you see a horrible demon with a long tongue standing over you. \"Poor beautiful girl, she couldn't finish the job. A shame that now I must do it myself!\" The demon takes its tongue and pierces your foot, draining all of your blood within seconds, and vanishes.",
+                button_text: "Tell her you can't help, this is too much for you to deal with.",
+                left: null,
+                right: null,
+              },
+              right: {
+                text: "Fang Xiaocao is overwhelmed with gratitude. \"You are so kind. I will never be able to thank you enough. The task will not be difficult, but it may be tedious.\" Fang Xiaocao explains that in order to free her, you will need to find her remains, take them back to her hometown where she died, and then she can reincarnated. It takes you several days to do this, but you eventually arrive at Fang Xiaocao's home in the southern province. \"I died from a sudden illness over here.\" Fang Xiaocao leads to you a small dilapidated house, now overgrown with weeds. You bury her remains in the backyard, and she smiles with joy as you see her ghost dissapate. You return home and cherish your memory of her.",
+                button_text: "Agree to help her.",
+                left: null,
+                right: null,
+              }
+            },
           },
           right: {
             text: "Fang Xiaocao blushes but agrees. That night, you and Fang Xiaocao share passionate love together. You feel you really have a connection. In the morning, you make tea and rice porridge.",
@@ -228,10 +268,20 @@ export class AppComponent {
               },
             },
             right: {
-              text: "",
+              text: "You and Fang Xiaocao go to the townsquare to ask people about her uncle, but you have no luck. This continues for several days, and each day Fang Xiaocao looks more and more unhappy. You ask her what's wrong. \"I have not been honest with you. In truth, I have no uncle here. I am a ghost who died recently. I was sent away from my home in the middle of the night by my stepmother, who falsely accused me of being unchaste as a plot to get rid of me, knowing I would die alone in the forest. I thought I could find fulfillment by coming here and finding a spouse, but I am still restless. I know now the only way to find peace is for justice to be brought to my father and stepmother.\" ",
               button_text: "Stick with your plan of finding her uncle.",
-              left: null,
-              right: null,
+              left: {
+                text: "Without a word, Fang Xiaocao leaves. You are nervous for the next couple of days that she may come back, but she never does. Eventually more and more people in your town talk about the ghost of the crying woman. People put out offerings for her, but nobody will dare approach her. The offerings don't help, only you know what can end her suffering, but you remain silent and feel guilty. After a year you can't take it anymore, and move to a town in the northern province. You die several years later of a mysterious illness.",
+                button_text: "Send Fang Xiaocao away for lying and being a ghost.",
+                left: null,
+                right: null,
+              },
+              right: {
+                text: "You offer to help Fang Xiaocao, and she is overjoyed. You travel several days to her hometown, and explain the magistrate what happened. After a trial, it was found there was no real evidence of Fang Xiaocao being unchaste, and her father and stepmother are punished. Fang Xiaocao is able to leave her ghostly form in the mortal world, and you return to your own town.",
+                button_text: "Help Fang Xiaocao get justice for her death.",
+                left: null,
+                right: null,
+              },
             },
           }
         },
