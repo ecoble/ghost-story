@@ -63,7 +63,7 @@ var AppRoutingModule = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".container {\n    display: flex;\n    flex-direction: column;\n    flex: 1 1 auto; \n    align-items: center;\n    position: absolute; \n    width: 100%;\n    height: 100%;\n    background: url('courtyard.jpeg') no-repeat center center fixed;\n    background-size: cover;\n}\n\nh1, p {\n    background-color: #F9F9F0;\n    padding: 10px;\n    margin: 20px;\n}\n\n.button-container {\n    background-color: #F9F9F0;\n    display: flex;\n    flex-direction: row;\n}\n\n.text-container {\n    max-width: 800px;\n}\n\n.interactive-container {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxhQUFhO0lBQ2Isc0JBQXNCO0lBQ3RCLGNBQWM7SUFDZCxtQkFBbUI7SUFDbkIsa0JBQWtCO0lBQ2xCLFdBQVc7SUFDWCxZQUFZO0lBQ1osK0RBQWdGO0lBSWhGLHNCQUFzQjtBQUMxQjs7QUFFQTtJQUNJLHlCQUF5QjtJQUN6QixhQUFhO0lBQ2IsWUFBWTtBQUNoQjs7QUFFQTtJQUNJLHlCQUF5QjtJQUN6QixhQUFhO0lBQ2IsbUJBQW1CO0FBQ3ZCOztBQUVBO0lBQ0ksZ0JBQWdCO0FBQ3BCOztBQUVBO0lBQ0ksYUFBYTtJQUNiLHNCQUFzQjtJQUN0QixtQkFBbUI7QUFDdkIiLCJmaWxlIjoic3JjL2FwcC9hcHAuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5jb250YWluZXIge1xuICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcbiAgICBmbGV4OiAxIDEgYXV0bzsgXG4gICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgICBwb3NpdGlvbjogYWJzb2x1dGU7IFxuICAgIHdpZHRoOiAxMDAlO1xuICAgIGhlaWdodDogMTAwJTtcbiAgICBiYWNrZ3JvdW5kOiB1cmwoXCIuLi9hc3NldHMvaW1hZ2VzL2NvdXJ0eWFyZC5qcGVnXCIpIG5vLXJlcGVhdCBjZW50ZXIgY2VudGVyIGZpeGVkOyBcbiAgICAtd2Via2l0LWJhY2tncm91bmQtc2l6ZTogY292ZXI7XG4gICAgLW1vei1iYWNrZ3JvdW5kLXNpemU6IGNvdmVyO1xuICAgIC1vLWJhY2tncm91bmQtc2l6ZTogY292ZXI7XG4gICAgYmFja2dyb3VuZC1zaXplOiBjb3Zlcjtcbn1cblxuaDEsIHAge1xuICAgIGJhY2tncm91bmQtY29sb3I6ICNGOUY5RjA7XG4gICAgcGFkZGluZzogMTBweDtcbiAgICBtYXJnaW46IDIwcHg7XG59XG5cbi5idXR0b24tY29udGFpbmVyIHtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjRjlGOUYwO1xuICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgZmxleC1kaXJlY3Rpb246IHJvdztcbn1cblxuLnRleHQtY29udGFpbmVyIHtcbiAgICBtYXgtd2lkdGg6IDgwMHB4O1xufVxuXG4uaW50ZXJhY3RpdmUtY29udGFpbmVyIHtcbiAgICBkaXNwbGF5OiBmbGV4O1xuICAgIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XG4gICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbn0iXX0= */"
+module.exports = ".container {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    position: absolute; \n    width: 100%;\n    height: 100%;\n    /* background: url(\"../assets/images/courtyard.jpeg\") no-repeat center center fixed;  */\n    background-repeat: no-repeat;\n    background-size: cover;\n}\n\nh1, p {\n    background-color: #F9F9F0;\n    padding: 10px;\n    margin: 20px;\n}\n\n.button-container {\n    background-color: #F9F9F0;\n    display: flex;\n    flex-direction: row;\n}\n\n.text-container {\n    max-width: 800px;\n}\n\n.interactive-container {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxhQUFhO0lBQ2Isc0JBQXNCO0lBQ3RCLG1CQUFtQjtJQUNuQixrQkFBa0I7SUFDbEIsV0FBVztJQUNYLFlBQVk7SUFDWix1RkFBdUY7SUFDdkYsNEJBQTRCO0lBSTVCLHNCQUFzQjtBQUMxQjs7QUFFQTtJQUNJLHlCQUF5QjtJQUN6QixhQUFhO0lBQ2IsWUFBWTtBQUNoQjs7QUFFQTtJQUNJLHlCQUF5QjtJQUN6QixhQUFhO0lBQ2IsbUJBQW1CO0FBQ3ZCOztBQUVBO0lBQ0ksZ0JBQWdCO0FBQ3BCOztBQUVBO0lBQ0ksYUFBYTtJQUNiLHNCQUFzQjtJQUN0QixtQkFBbUI7QUFDdkIiLCJmaWxlIjoic3JjL2FwcC9hcHAuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5jb250YWluZXIge1xuICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcbiAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTsgXG4gICAgd2lkdGg6IDEwMCU7XG4gICAgaGVpZ2h0OiAxMDAlO1xuICAgIC8qIGJhY2tncm91bmQ6IHVybChcIi4uL2Fzc2V0cy9pbWFnZXMvY291cnR5YXJkLmpwZWdcIikgbm8tcmVwZWF0IGNlbnRlciBjZW50ZXIgZml4ZWQ7ICAqL1xuICAgIGJhY2tncm91bmQtcmVwZWF0OiBuby1yZXBlYXQ7XG4gICAgLXdlYmtpdC1iYWNrZ3JvdW5kLXNpemU6IGNvdmVyO1xuICAgIC1tb3otYmFja2dyb3VuZC1zaXplOiBjb3ZlcjtcbiAgICAtby1iYWNrZ3JvdW5kLXNpemU6IGNvdmVyO1xuICAgIGJhY2tncm91bmQtc2l6ZTogY292ZXI7XG59XG5cbmgxLCBwIHtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjRjlGOUYwO1xuICAgIHBhZGRpbmc6IDEwcHg7XG4gICAgbWFyZ2luOiAyMHB4O1xufVxuXG4uYnV0dG9uLWNvbnRhaW5lciB7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogI0Y5RjlGMDtcbiAgICBkaXNwbGF5OiBmbGV4O1xuICAgIGZsZXgtZGlyZWN0aW9uOiByb3c7XG59XG5cbi50ZXh0LWNvbnRhaW5lciB7XG4gICAgbWF4LXdpZHRoOiA4MDBweDtcbn1cblxuLmludGVyYWN0aXZlLWNvbnRhaW5lciB7XG4gICAgZGlzcGxheTogZmxleDtcbiAgICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xuICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG59Il19 */"
 
 /***/ }),
 
@@ -74,7 +74,7 @@ module.exports = ".container {\n    display: flex;\n    flex-direction: column;\
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!--The content below is only a placeholder and can be replaced.-->\n<div class=\"container\">\n  <h1>A GHOST STORY</h1>\n  <div class=\"text-container\">\n    <p>{{currentNode.text}}</p>\n  </div>\n  <div *ngIf=\"currentNode.left\" class=\"interactive-container\">\n    <p>Do you choose to: </p>\n    <div class=\"button-container\">\n      <button mat-button (click)=\"leftClick()\"> {{currentNode.left.button_text}} </button>\n      <button mat-button (click)=\"rightClick()\"> {{currentNode.right.button_text}} </button>\n    </div>\n  </div>\n  \n</div>\n\n"
+module.exports = "<!--The content below is only a placeholder and can be replaced.-->\n<div class=\"container\" [ngStyle]=\"{background: 'url(' + background_url +') no-repeat center center fixed', 'background-size': 'cover' }\">\n  <h1>A GHOST STORY</h1>\n  <div class=\"text-container\">\n    <p>{{currentNode.text}}</p>\n  </div>\n  <div *ngIf=\"currentNode.left\" class=\"interactive-container\">\n    <p>Do you choose to: </p>\n    <div class=\"button-container\">\n      <button mat-button (click)=\"leftClick()\"> {{currentNode.left.button_text}} </button>\n      <button mat-button (click)=\"rightClick()\"> {{currentNode.right.button_text}} </button>\n    </div>\n  </div>\n  <p style=\"font-size: 12px\">To restart the story, refresh your browser.</p>\n</div>\n\n"
 
 /***/ }),
 
@@ -94,6 +94,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var AppComponent = /** @class */ (function () {
     function AppComponent() {
+        this.background_url = "../assets/images/courtyard.jpeg";
         this.tree = {
             text: "It is a beautiful spring day. Flowers are blooming, the market is bustling, you've just had a cup of tea and are stepping outside of your courtyard. As you stroll down the road, you notice a young woman ahead of you. She's alone and she's crying.",
             button_text: "",
@@ -266,6 +267,7 @@ var AppComponent = /** @class */ (function () {
             right: {
                 text: "You avert your eyes and keep heading towards the town square. While shopping, you see her again. This time she is standing looking a bit lost. You make eye contact and she approaches you. \"Sir, I'm sorry to bother you, I'm lost. Do you think you could help me?\"",
                 button_text: "Cross the street and keep walking, it's better to mind your business.",
+                background_url: "../assets/images/market.jpg",
                 left: {
                     text: "\"Thank you so much! You're very kind. I'm Fang Xiaocao, I'm from the Southern Province, but my family is very poor and can no longer afford to feed me. They've sent me here to live with my uncle, and hopefully find a spouse quickly. I don't know where he lives, but I've heard he's a potter.\"",
                     button_text: "Agree to help her.",
@@ -385,11 +387,15 @@ var AppComponent = /** @class */ (function () {
     }
     AppComponent.prototype.leftClick = function () {
         this.currentNode = this.currentNode.left;
-        console.log("left click");
+        if (this.currentNode.background_url) {
+            this.background_url = this.currentNode.background_url;
+        }
     };
     AppComponent.prototype.rightClick = function () {
         this.currentNode = this.currentNode.right;
-        console.log("right click");
+        if (this.currentNode.background_url) {
+            this.background_url = this.currentNode.background_url;
+        }
     };
     AppComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({

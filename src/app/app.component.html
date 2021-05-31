@@ -1,5 +1,5 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<div class="container">
+<div class="container" [ngStyle]="{background: 'url(' + background_url +') no-repeat center center fixed', 'background-size': 'cover' }">
   <h1>A GHOST STORY</h1>
   <div class="text-container">
     <p>{{currentNode.text}}</p>
@@ -11,6 +11,6 @@
       <button mat-button (click)="rightClick()"> {{currentNode.right.button_text}} </button>
     </div>
   </div>
-  
+  <p style="font-size: 12px">To restart the story, refresh your browser.</p>
 </div>
 
