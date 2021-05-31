@@ -8,7 +8,7 @@ import { Tree } from './tree';
 })
 
 export class AppComponent {
-  background_url = "../assets/images/courtyard.jpeg";
+  background_url = "assets/images/courtyard.jpeg";
   tree: Tree = {
     text: "It is a beautiful spring day. Flowers are blooming, the market is bustling, you've just had a cup of tea and are stepping outside of your courtyard. As you stroll down the road, you notice a young woman ahead of you. She's alone and she's crying.",
     button_text: "",
@@ -181,7 +181,7 @@ export class AppComponent {
     right: {
       text: "You avert your eyes and keep heading towards the town square. While shopping, you see her again. This time she is standing looking a bit lost. You make eye contact and she approaches you. \"Sir, I'm sorry to bother you, I'm lost. Do you think you could help me?\"",
       button_text: "Cross the street and keep walking, it's better to mind your business.",
-      background_url: "../assets/images/market.jpg",
+      background_url: "assets/images/market.jpg",
       left: {
         text: "\"Thank you so much! You're very kind. I'm Fang Xiaocao, I'm from the Southern Province, but my family is very poor and can no longer afford to feed me. They've sent me here to live with my uncle, and hopefully find a spouse quickly. I don't know where he lives, but I've heard he's a potter.\"",
         button_text: "Agree to help her.",
